@@ -1,0 +1,36 @@
+input[type=submit]{
+    background-color: rgb(248, 248, 248);
+    padding: 3px;
+
+}
+input[type=text]{
+    border:2px solid rgba(192, 192, 192, 0.897);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top:45%;
+    right:26.5%;
+    width: 600px;
+    height: 45px;;
+    background-image: url("tia.png");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: 25px;
+    text-align: center;
+}
+input[type=submit]:hover{
+    border:1px solid rgb(145, 145, 145) ;
+    border-radius: 3px;
+}
+input[type=text]:hover{
+    border:   2px solid   rgb(114, 114, 114);
+    
+
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("googlelogo.png");
+    background-position: 50% 30%;
+    background-size: 280px;
+    background-attachment: fixed;
+}
