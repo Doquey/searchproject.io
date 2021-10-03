@@ -88,4 +88,13 @@ a[href="index.html"]:hover {
   cursor: pointer;
 }
 
+#google2 {
+  padding: 5px;
+  position: absolute;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  top: 56%;
+  right: 46%;
+}
+
 /*# sourceMappingURL=style.css.map */
