@@ -4,15 +4,28 @@
         <title>Harvard Search Project!</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <meta name=”viewport” content=width:device-width, initial-scale=1.0”> 
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     </head>
 <body>
-    <form action="https://google.com/search">
-        <input type="text" name="q"> </input>
-        <input type="submit" value="Google Search"></input>
+    
+    <form action="https://google.com/search" method="GET">
+        <input type="text" name="q">
+        <div>
+            <button type="submit" id ="google" >Google Search</button>
         </div>
+        <div>
+            <input type="hidden" name="%sbtnI">
+            <input type="hidden" name="sourceid" value="navclient">
+            <input type="hidden" name="gfns" value = "1">
+            <button type="submit" id="lucky"> I'm lucky today</button>
+        </div>
+    
+
     </form>
-    <a href="index2.html">Search Image</a>
-    <a href="index3.html">Advenced Search</a> 
+    
+    <a href="index2.html">Google Search Image</a>
+    <a href="index3.html">Google Advanced Search</a> 
 </body>
 
 </html>

@@ -2,11 +2,17 @@
 <html>
 <head>
     <title>Google Search Image</title>
-
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
     <a href="index.html">Google Search</a>
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <input type="hidden" name="tbm" value="isch">
+        <input id = "google" type="submit" value="Google Search">
+    </form>
 
 </body>
 

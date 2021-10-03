@@ -1,22 +1,25 @@
-input[type=submit]{
+#google{
+    padding: 5px;
+    position:absolute;
     background-color: rgb(248, 248, 248);
-    padding: 3px;
-
+    top: 56%;
+    right:52%;
+    cursor:pointer;
 }
 input[type=text]{
-    border:2px solid rgba(192, 192, 192, 0.897);
+    position: absolute;
+    border:2px solid rgba(230, 229, 229, 0.897);
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
-    position:absolute;
-    top:45%;
-    right:26.5%;
+    top: 45%;
+    right:26.8%;
     width: 600px;
     height: 45px;;
     background-image: url("tia.png");
     background-repeat: no-repeat;
     background-position: 98% center;
     background-size: 25px;
-    text-align: center;
+    
 }
 input[type=submit]:hover{
     border:1px solid rgb(145, 145, 145) ;
@@ -24,13 +27,54 @@ input[type=submit]:hover{
 }
 input[type=text]:hover{
     border:   2px solid   rgb(114, 114, 114);
-    
+}
+input[type=text]:hover::after{
+    animation : shineAnimation 2s 1;
 
 }
 body{
+    display:flex;
     background-repeat: no-repeat;
     background-image: url("googlelogo.png");
     background-position: 50% 30%;
     background-size: 280px;
     background-attachment: fixed;
+    display:flex;
+}
+
+form{
+    display:flex;
+}
+a[href="index2.html"]{
+    position:absolute;
+    top: 5%;
+    right:20%;
+
+}
+a[href="index3.html"]{
+    position:absolute;
+    top:5%;
+    right:5%;
+}
+a[href="index2.html"]:hover{
+    text-decoration: underline;
+}
+a[href="index3.html"]:hover{
+    text-decoration: underline;
+}
+a[href="index.html"]{
+    position:absolute;
+    top:5%;
+    right:10%;
+}
+a[href="index.html"]:hover{
+    text-decoration: underline;
+}
+#lucky{
+    position: absolute;
+    top:56%;
+    left:50%;
+    padding: 5px;
+    background-color: rgb(248, 248, 248);
+    cursor:pointer;
 }
