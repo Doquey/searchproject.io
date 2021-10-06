@@ -4,12 +4,48 @@
     <title>Google Search Advenced</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
+    <meta name=”viewport” content=width:device-width, initial-scale=1.0”> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <a href="index.html">Google Search</a>
+<body id="index3">
+    <div id="da"><h1>Advanced Search</h1></div>
+    <div class="categorias">
+        <h2 style="font-size: 20px ;">Find pages with:</h2>
+        <p>all these words:</p>
+        <p>this exact word or phrase:</p>
+        <p>any of these words:</p>
+        <p>none of these words:</p>
+    </div>
+    <form action="https://google.com/search" class="index3">
+        <input type="text" name="as_q" id="input1">
+        <input type="text" name="as_epq" id="input2">
+        <input type="text" name="as_oq" id="input3">
+        <input type="text" name="as_eq" id="input4">
+        <input type="submit" id="buttoninput"  value="Advanced search" style="position:absolute;background-color: rgb(32, 139, 240); color:white;font-family:Lato;font-weight: bold;font-size:smaller;padding:5px 10px 5px 10px;top:63%;left:48.6%;">
+    </form>
+    <a id="googlelogo" href="index.html"><img  src="googlelogo.png" alt="googlelogo"></a>
+    <div id="extratext">
+        <h1>Do this in the searching box.</h1>
+        <div><p>Type the important words:</p>
+        <p class="diferentfont">rat terrier tricolor</p>
+        </div>
+        <div><p>Type exact words beetwen " ":</p>
+        <p class="diferentfont">"rat terrier"</p>
+         </div>
+        <div><p>Type OR beetwen all words your looking up:</p>
+        <p class="diferentfont">miniature OR standard</p>
+        </div>
+       <div><p>Type a minus simbol before the words you do not want:</p>
+        <p class="diferentfont">-rat,-"Jack Russel"</p>
+        </div>
 
+    </div>
 </body>
 
 

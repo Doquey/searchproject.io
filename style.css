@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-input[type=text] {
+.indexeindex2 {
   position: absolute;
   border: 2px solid rgba(230, 229, 229, 0.897);
   border-radius: 15px;
@@ -20,6 +20,7 @@ input[type=text] {
   background-repeat: no-repeat;
   background-position: 98% center;
   background-size: 25px;
+  padding-left: 20px;
 }
 
 input[type=submit]:hover {
@@ -27,15 +28,15 @@ input[type=submit]:hover {
   border-radius: 3px;
 }
 
-input[type=text]:hover {
+.indexeindex2:hover {
   border: 2px solid #727272;
 }
 
-input[type=text]:hover::after {
+.indexeindex2:hover::after {
   animation: shineAnimation 2s 1;
 }
 
-body {
+.ind1ind2 {
   display: flex;
   background-repeat: no-repeat;
   background-image: url("googlelogo.png");
@@ -69,7 +70,7 @@ a[href="index3.html"]:hover {
   text-decoration: underline;
 }
 
-a[href="index.html"] {
+#index2link {
   position: absolute;
   top: 5%;
   right: 10%;
@@ -95,6 +96,104 @@ a[href="index.html"]:hover {
   cursor: pointer;
   top: 56%;
   right: 46%;
+}
+
+#da {
+  position: absolute;
+  top: 13%;
+  left: 4%;
+  font-size: 18px;
+  color: red;
+}
+
+.categorias {
+  position: absolute;
+  top: 28%;
+  left: 4%;
+}
+.categorias p {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.index3 #input1 {
+  position: absolute;
+  top: 34.5%;
+  left: 18.8%;
+  border-width: 1px;
+  border-color: #7e7e7e;
+  width: 500px;
+  height: 29px;
+}
+.index3 #input2 {
+  position: absolute;
+  top: 41.8%;
+  left: 18.8%;
+  border-width: 1px;
+  border-color: #7e7e7e;
+  width: 500px;
+  height: 29px;
+}
+.index3 #input3 {
+  position: absolute;
+  top: 49.2%;
+  left: 18.8%;
+  border-width: 1px;
+  border-color: #7e7e7e;
+  width: 500px;
+  height: 29px;
+}
+.index3 #input4 {
+  position: absolute;
+  top: 57%;
+  left: 18.8%;
+  border-width: 1px;
+  border-color: #7e7e7e;
+  width: 500px;
+  height: 29px;
+}
+.index3 #input1:hover {
+  border: 1px #5757f7 solid;
+}
+.index3 #input2:hover {
+  border: 1px #5757f7 solid;
+}
+.index3 #input3:hover {
+  border: 1px #5757f7 solid;
+}
+.index3 #input4:hover {
+  border: 1px #5757f7 solid;
+}
+
+#buttoninput:hover {
+  cursor: pointer;
+}
+
+#googlelogo img {
+  position: absolute;
+  width: 80px;
+  left: 2%;
+  top: 3%;
+}
+
+#extratext {
+  position: absolute;
+  top: 28%;
+  left: 59.6%;
+  font-size: smaller;
+}
+#extratext div {
+  padding: 7px 0px 0px 11px;
+  color: gray;
+}
+#extratext h1 {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: bold;
+  color: #666666;
+}
+#extratext #diferentfont {
+  font-family: "Nunito";
 }
 
 /*# sourceMappingURL=style.css.map */
